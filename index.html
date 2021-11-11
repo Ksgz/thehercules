@@ -29,7 +29,7 @@
     margin-bottom: 25px;
     width: 80%;
     height: 80%;
-    opacity: 0.7;
+    opacity: 1;
   }
   .person:hover {
     border-color: #f1f1f1;
@@ -151,6 +151,9 @@
   textarea {
     resize: none;
   }
+  .logo {
+    border-color: transparent;
+  }
   </style>
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
@@ -163,13 +166,15 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="#myPage">Logo</a>
+      <div style="position: absolute; left: 0px; top: 0px;" class="logo" data-target="#myPage"> 
+        <img src="images/logo.png" width="200" height="49.5">
+    </div>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#myPage">HOME</a></li>
-        <li><a href="#band">BAND</a></li>
-        <li><a href="#tour">TOUR</a></li>
+        <li><a href="#Characters">CHARACTERS</a></li>
+        <li><a href="#tour">Watch now</a></li>
         <li><a href="#contact">CONTACT</a></li>
         <li class="dropdown">
           <a class="dropdown-toggle" data-toggle="dropdown" href="#">MORE
@@ -232,44 +237,55 @@
     </a>
 </div>
 
-<!-- Container (The Band Section) -->
-<div id="band" class="container text-center">
-  <h3>THE BAND</h3>
-  <p><em>We love music!</em></p>
-  <p>We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+<!-- Container (The Character Section) -->
+<div id="Characters" class="container text-center">
+  <h3>THE CHARACTERS</h3>
+  <p><em>We love Hercules!</em></p>
+  <p>We have created a fictional Fan website. </p>
   <br>
   <div class="row">
     <div class="col-sm-4">
-      <p class="text-center"><strong>Name</strong></p><br>
+      <p class="text-center"><strong>Hercules</strong></p><br>
       <a href="#demo" data-toggle="collapse">
-        <img src="bandmember.jpg" class="img-circle person" alt="Random Name" width="255" height="255">
+        <img src="images/hercgif2.gif" class="img-circle person" alt="Hercules" width="255" height="255">
       </a>
       <div id="demo" class="collapse">
-        <p>Guitarist and Lead Vocalist</p>
+        <p>Main Character</p>
         <p>Loves long walks on the beach</p>
         <p>Member since 1988</p>
       </div>
     </div>
     <div class="col-sm-4">
-      <p class="text-center"><strong>Name</strong></p><br>
+      <p class="text-center"><strong>Megara</strong></p><br>
       <a href="#demo2" data-toggle="collapse">
-        <img src="bandmember.jpg" class="img-circle person" alt="Random Name" width="255" height="255">
+        <img src="images/megan.gif" class="img-circle person" alt="megan" width="255" height="255">
       </a>
       <div id="demo2" class="collapse">
-        <p>Drummer</p>
+        <p>Lover Girl</p>
         <p>Loves drummin'</p>
         <p>Member since 1988</p>
       </div>
     </div>
     <div class="col-sm-4">
-      <p class="text-center"><strong>Name</strong></p><br>
+      <p class="text-center"><strong>Hades</strong></p><br>
       <a href="#demo3" data-toggle="collapse">
-        <img src="bandmember.jpg" class="img-circle person" alt="Random Name" width="255" height="255">
+        <img src="images/hades.gif" class="img-circle person" alt="hades" width="255" height="255">
       </a>
       <div id="demo3" class="collapse">
         <p>Bass player</p>
         <p>Loves math</p>
         <p>Member since 2005</p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <p class="text-center"><strong>Pegasus</strong></p><br>
+      <a href="#demo4" data-toggle="collapse">
+        <img src="images/peg.gif" class="img-circle person" alt="Pegasus" width="255" height="255">
+      </a>
+      <div id="demo4" class="collapse">
+        <p>Lover Girl</p>
+        <p>Loves drummin'</p>
+        <p>Member since 1988</p>
       </div>
     </div>
   </div>
@@ -412,7 +428,7 @@
   <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
     <span class="glyphicon glyphicon-chevron-up"></span>
   </a><br><br>
-  <p>Bootstrap Theme Made By <a href="https://www.w3schools.com" data-toggle="tooltip" title="Visit w3schools">www.w3schools.com</a></p> 
+  <p><a href="EVASE website" data-toggle="tooltip" title="Visit EVASE Website">© EVASE 2021.  All rights reserved.</a></p> 
 </footer>
 
 <script>
